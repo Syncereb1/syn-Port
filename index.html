@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Syncere's Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar glass-panel">
+      <a class="logo" href="#">Syncere's Portfolio</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#featured">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Winston-Salem State University Alum</p>
+          <h1>Hi, I’m Syncere Brown</h1>
+          <p>Computer Science major from Baltimore, Maryland. I build polished experiences with a focus on modern motion, glassmorphism, and strong visual storytelling.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="projects.html">Explore Projects</a>
+            <a class="button button-secondary" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-panel glass-panel">
+          <div class="status-pill">Portfolio Highlights</div>
+          <h2>Featured Work</h2>
+          <p>This portfolio highlights a Java image morphing app, distributed systems research with Redis and Docker, and an eSports informational website.</p>
+        </div>
+      </section>
+
+      <section id="about" class="section-panel glass-panel fade-up">
+        <div class="section-intro">
+          <span class="section-label">About Me</span>
+          <h2>Computer Science, sports, and outdoor energy.</h2>
+        </div>
+        <p>My name is Syncere Brown and I recently graduated with a bachelor’s degree in Computer Science from Winston-Salem State University. I am from Baltimore, Maryland, and I enjoy staying active outdoors and playing sports when I’m not designing or building new digital experiences.</p>
+      </section>
+
+      <section id="featured" class="section-panel">
+        <div class="section-intro">
+          <span class="section-label">Projects</span>
+          <h2>Selected work with bold motion.</h2>
+        </div>
+        <div class="project-grid">
+          <a class="project-card glass-panel" href="projects.html#project1">
+            <span class="project-tag">Project 1</span>
+            <h3>Image Morphing Application</h3>
+            <p>Java desktop application with Swing GUI that creates smooth morphing sequences between PPM images using recursive algorithms and image processing.</p>
+          </a>
+          <a class="project-card glass-panel" href="projects.html#project2">
+            <span class="project-tag">Project 2</span>
+            <h3>Network Performance in Distributed Systems</h3>
+            <p>Academic research on consistency in replicated Redis databases using Docker containers, measuring latency and stale read rates.</p>
+          </a>
+          <a class="project-card glass-panel" href="projects.html#project3">
+            <span class="project-tag">Project 3</span>
+            <h3>Algorithm Visualization</h3>
+            <p>Interactive visual demonstration of algorithms and system flows where motion and animation make complex ideas easier to understand.</p>
+          </a>
+          <a class="project-card glass-panel" href="projects.html#project4">
+            <span class="project-tag">Project 4</span>
+            <h3>All About eSports</h3>
+            <p>Comprehensive informational website exploring competitive gaming with multi-page navigation, interactive slideshow, and dynamic content about major tournaments.</p>
+          </a>
+        </div>
+      </section>
+
+      <section id="resume" class="section-panel glass-panel fade-up">
+        <div class="section-intro">
+          <span class="section-label">Resume</span>
+          <h2>Upload or preview your resume instantly.</h2>
+        </div>
+        <p>Click below to choose your resume file, or download the current resume directly from this portfolio.</p>
+        <div class="resume-actions">
+          <button id="resumeButton" class="button button-primary">Upload Resume</button>
+          <input id="resumeInput" type="file" accept=".pdf,.doc,.docx" hidden />
+          <a class="button button-secondary" href="Updated_Syncere_Brown_Resume.docx" download>Download Resume</a>
+        </div>
+        <div class="resume-preview glass-panel">
+          <h3>Resume Preview</h3>
+          <p><strong>Syncere Brown</strong> | Sbrown420@rams.wssu.edu | (216) 339-9652</p>
+          <h4>Professional Summary</h4>
+          <p>Well-rounded student-athlete with leadership experience, a strong work ethic, and a passion for technology and community service. Computer Science student at Winston-Salem State University with experience in programming, data structures, software engineering, information security, and systems administration.</p>
+          <h4>Education</h4>
+          <p>Winston-Salem State University — Winston-Salem, NC<br />Bachelor of Science in Computer Science<br />Current GPA: 2.5</p>
+          <h4>Relevant Coursework</h4>
+          <ul>
+            <li>Computer Programming I & II</li>
+            <li>Data Structures</li>
+            <li>Information Security</li>
+            <li>Systems Administration I</li>
+            <li>Software Engineering</li>
+            <li>Analysis of Algorithms</li>
+            <li>Computer Architecture</li>
+            <li>UNIX Lab</li>
+            <li>Discrete Mathematics</li>
+            <li>Elementary Statistics</li>
+          </ul>
+          <h4>Work Experience</h4>
+          <ul>
+            <li>Stratosphere Trampoline Park — monitored customer safety and enforced facility rules.</li>
+            <li>Weis Markets Deli — assisted customers and supported daily deli operations.</li>
+            <li>CarMax Transportation — helped transport vehicles across states for Superior Auto World.</li>
+          </ul>
+          <h4>Leadership & Activities</h4>
+          <ul>
+            <li>WSSU Football — Defensive Back</li>
+            <li>4-Year Varsity Baseball Starter</li>
+            <li>2-Year Baseball Team Captain</li>
+            <li>2-Year Football Team Captain</li>
+            <li>Varsity Wrestling</li>
+            <li>Indoor Track & Field</li>
+          </ul>
+          <h4>Honors & Service</h4>
+          <ul>
+            <li>2020 McCormick Unsung Hero Award Finalist</li>
+            <li>Randallstown High School Student Athlete of the Year</li>
+            <li>Certificate of Academic Excellence</li>
+            <li>Supported fundraising and charity events in the community.</li>
+          </ul>
+        </div>
+        <p class="resume-feedback" id="resumeFeedback">Resume preview is shown above.</p>
+      </section>
+
+      <section id="contact" class="section-panel glass-panel fade-up">
+        <div class="section-intro">
+          <span class="section-label">Contact</span>
+          <h2>Let’s connect on GitHub or by message.</h2>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>Email</h3>
+            <a href="mailto:sbrown420@rams.wssu.edu">sbrown420@rams.wssu.edu</a>
+          </div>
+          <div class="contact-card">
+            <h3>Phone</h3>
+            <a href="tel:+12163399652">(216) 339-9652</a>
+          </div>
+          <div class="contact-card">
+            <h3>GitHub</h3>
+            <a href="https://github.com/Syncereb1" target="_blank" rel="noreferrer">github.com/Syncereb1</a>
+          </div>
+          <div class="contact-card">
+            <h3>Resume</h3>
+            <a href="Updated_Syncere_Brown_Resume.docx" download>Download Resume</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer glass-panel">
+      <p>Designed with modern animations and royal blue glassmorphism.</p>
+      <p>Syncere Brown | Computer Science</p>
+    </footer>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
